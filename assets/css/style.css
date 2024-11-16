@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+
+body {
+    font-family: 'SUSE', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    margin-right: 3px;
+}
+
+header {
+    background-color: #6b4b3e; 
+    height: 90px;
+    color: #F1FAEE;
+    display: flex;
+}
+
+header h1 {
+    font-size: 22px;
+    padding: 20px 0px 0px 30px;
+    flex: 20;
+}
+
+nav {
+    flex: 80;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+}
+
+nav a {
+    color: #F1FAEE;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+}
+
+nav a:hover {
+    background-color: #c49e85;
+    text-decoration: none;
+    color: #1b2432;
+}
+
+hero {
+    background-color: #c49e85;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hero img {
+    width: 150px;
+    height: 192px;
+    border-radius: 50%;
+}
+
+hero h2 {
+    margin: 0;
+    color: #F1FAEE;
+}
+
+hero p {
+    color: #F1FAEE;
+}
+
+.cta {
+    padding: 10px;
+    margin: 2px;
+}
+
+.btn-cta {
+    background-color: #6b4b3e;
+    color: #F1FAEE;
+    padding: 8px 15px 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#about {
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
+    margin: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about-left {
+    flex: 50px;
+    padding-left: 10px;
+}
+
+.about-right {
+    flex: 50px;
+    padding-left: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    gap: 5;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.skills-left {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.skills-right {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;    
+}
+
+#progress {
+    background-color: #c49e85;
+    color: #F1FAEE;
+    text-align: center;
+}
+
+#progress > div {
+    background-color: #6b4b3e;
+    width: 50%;
+    height: 20px;
+}
+
+#education {
+    display: flex;
+    gap: 5;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.education-left {
+    flex: 30;
+    background-color: #6b4b3e;
+    color: #F1FAEE;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.education-right {
+    flex: 70;
+    padding-left: 15px;
+}
+
+.sekolah{
+    font-weight: bold;
+    color: #a9a9a9;
+}
+
+#contact {
+    display: flex;
+    gap: 8;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 25px; 
+}
+
+.left-contact {
+    flex: 50;
+    padding: 5px 0px 7px 10px;
+}
+
+.left-contact input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #6b4b3e;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.left-contact textarea {
+    width: 100%;
+    height: 120px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #6b4b3e;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #6b4b3e;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.right-contact {
+    flex: 50;
+    padding: 5px 10px 5px 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    background-color: gainsboro;
+    padding: 10px;
+    line-height: normal;
+}
+
+.icon-sosmed {
+    margin-right: 4px;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.icon-sosmed:hover{
+    color: royalblue;
+}
+
+footer h3 {
+    font-size: 23px;
+    color: royalblue;
+    padding: 2px;
+    margin: 2px;
+}
+
+footer p {
+    color: black;
+    margin: 2px;
+    padding: 3px; 
+}
