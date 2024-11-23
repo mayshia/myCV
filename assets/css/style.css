@@ -11,9 +11,9 @@ body {
 }
 
 header {
-    background-color: #6b4b3e; 
+    background-color: #854549; 
     height: 90px;
-    color: #F1FAEE;
+    color: #fff;
     display: flex;
 }
 
@@ -35,19 +35,19 @@ nav li {
 }
 
 nav a {
-    color: #F1FAEE;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px 10px 15px;
 }
 
 nav a:hover {
-    background-color: #c49e85;
+    background-color: #DBB9AC;
     text-decoration: none;
-    color: #1b2432;
+    color: black;
 }
 
 hero {
-    background-color: #c49e85;
+    background-color: #9C6847;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -62,11 +62,11 @@ hero img {
 
 hero h2 {
     margin: 0;
-    color: #F1FAEE;
+    color: #fff;
 }
 
 hero p {
-    color: #F1FAEE;
+    color: #fff;
 }
 
 .cta {
@@ -79,8 +79,8 @@ hero p {
 }
 
 .btn-cta {
-    background-color: #6b4b3e;
-    color: #F1FAEE;
+    background-color: #854549;
+    color: #fff;
     padding: 8px 15px 10px 15px;
     text-decoration: none;
     border-radius: 8px;
@@ -91,7 +91,6 @@ hero p {
     gap: 5px;
     border: 1px solid rgba(0, 0, 0, 0.16);
     border-radius: 5px;
-    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
     margin: 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -131,13 +130,13 @@ hero p {
 }
 
 #progress {
-    background-color: #c49e85;
-    color: #F1FAEE;
+    background-color: #DBB9AC;
+    color: #fff;
     text-align: center;
 }
 
 #progress > div {
-    background-color: #6b4b3e;
+    background-color: #9C6847;
     width: 50%;
     height: 20px;
 }
@@ -152,8 +151,8 @@ hero p {
 
 .education-left {
     flex: 30;
-    background-color: #6b4b3e;
-    color: #F1FAEE;
+    background-color: #854549;
+    color: #fff;
     text-align: center;
     padding-top: 15px;
 }
@@ -165,7 +164,7 @@ hero p {
 
 .sekolah{
     font-weight: bold;
-    color: #a9a9a9;
+    color: lightslategray;
 }
 
 #contact {
@@ -197,7 +196,7 @@ hero p {
     padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #6b4b3e;
+    border: 1px solid #9C6847;
     border-radius: 5px;
     resize: none;
 }
@@ -208,7 +207,7 @@ hero p {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    background-color: #6b4b3e;
+    background-color: #9C6847;
     border-radius: 5px;
     box-sizing: border-box;
     color: #fff;
@@ -259,36 +258,37 @@ footer h3 {
         display: none;
     }
     
-       nav {
+    nav {
         justify-content: center;
         text-align: center;
         flex-wrap: wrap;
         column-gap: 5rem;
     }
-        .cta {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            gap: 8px;
-        }
+    
+    .cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+    }
         
-        #about {
-            flex-direction: column;
-        }
+    #about {
+        flex-direction: column;
+    }
         
         
-        #skills {
-            flex-direction: column;
-        }
+    #skills {            
+        flex-direction: column;
+    }
         
-        #education {
-            flex-direction: column;
-        }
+    #education {
+        flex-direction: column;
+    }
         
-        #contact {
-            flex-direction: column;
-        }
+    #contact {
+         flex-direction: column;
+    }
         
 }
 
