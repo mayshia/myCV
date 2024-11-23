@@ -74,6 +74,10 @@ hero p {
     margin: 2px;
 }
 
+.cta i {
+    margin-right: 8px;
+}
+
 .btn-cta {
     background-color: #6b4b3e;
     color: #F1FAEE;
