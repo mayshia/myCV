@@ -185,7 +185,7 @@ hero p {
     padding: 5px 5px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #6b4b3e;
+    border: 1px solid #9C6847;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -223,7 +223,7 @@ footer {
     flex-direction: column;
     align-items: center;
     /*justify-content: center;*/
-    background-color: gainsboro;
+    background-color: #DBB9AC;
     padding: 10px;
     line-height: normal;
 }
