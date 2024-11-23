@@ -1,295 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
-
-body {
-    font-family: 'SUSE', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.icon {
-    margin-right: 3px;
-}
-
-header {
-    background-color: #6b4b3e; 
-    height: 90px;
-    color: #F1FAEE;
-    display: flex;
-}
-
-header h1 {
-    font-size: 22px;
-    padding: 20px 0px 0px 30px;
-    flex: 20;
-}
-
-nav {
-    flex: 80;
-    text-align: right;
-}
-
-nav li {
-    list-style: none;
-    display: inline-block;
-    padding: 20px 20px 0px 0px;
-}
-
-nav a {
-    color: #F1FAEE;
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-}
-
-nav a:hover {
-    background-color: #c49e85;
-    text-decoration: none;
-    color: #1b2432;
-}
-
-hero {
-    background-color: #c49e85;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-hero img {
-    width: 150px;
-    height: 192px;
-    border-radius: 50%;
-}
-
-hero h2 {
-    margin: 0;
-    color: #F1FAEE;
-}
-
-hero p {
-    color: #F1FAEE;
-}
-
-.cta {
-    padding: 10px;
-    margin: 2px;
-}
-
-.btn-cta {
-    background-color: #6b4b3e;
-    color: #F1FAEE;
-    padding: 8px 15px 10px 15px;
-    text-decoration: none;
-    border-radius: 8px;
-}
-
-#about {
-    display: flex;
-    gap: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
-    margin: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.about-left {
-    flex: 50px;
-    padding-left: 10px;
-}
-
-.about-right {
-    flex: 50px;
-    padding-left: 15px;
-}
-
-.title {
-    text-align: center;
-}
-
-#skills {
-    display: flex;
-    gap: 5;
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    margin: 30px;
-}
-
-.skills-left {
-    flex: 50;
-    padding-left: 15px;
-    padding-bottom: 15px;
-}
-
-.skills-right {
-    flex: 50;
-    padding-left: 15px;
-    padding-bottom: 15px;    
-}
-
-#progress {
-    background-color: #c49e85;
-    color: #F1FAEE;
-    text-align: center;
-}
-
-#progress > div {
-    background-color: #6b4b3e;
-    width: 50%;
-    height: 20px;
-}
-
-#education {
-    display: flex;
-    gap: 5;
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    margin: 30px;
-}
-
-.education-left {
-    flex: 30;
-    background-color: #6b4b3e;
-    color: #F1FAEE;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.education-right {
-    flex: 70;
-    padding-left: 15px;
-}
-
-.sekolah{
-    font-weight: bold;
-    color: #a9a9a9;
-}
-
-#contact {
-    display: flex;
-    gap: 8;
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    margin: 25px; 
-}
-
-.left-contact {
-    flex: 50;
-    padding: 5px 0px 7px 10px;
-}
-
-.left-contact input {
-    width: 100%;
-    padding: 5px 5px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #6b4b3e;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.left-contact textarea {
-    width: 100%;
-    height: 120px;
-    padding: 5px 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #6b4b3e;
-    border-radius: 5px;
-    resize: none;
-}
-
-.contact-btn {
-    width: 100%;
-    padding: 5px 5px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    background-color: #6b4b3e;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: #fff;
-}
-
-.right-contact {
-    flex: 50;
-    padding: 5px 10px 5px 15px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*justify-content: center;*/
-    background-color: gainsboro;
-    padding: 10px;
-    line-height: normal;
-}
-
-.icon-sosmed {
-    margin-right: 4px;
-    margin-bottom: 0;
-    color: #000;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-.icon-sosmed:hover{
-    color: royalblue;
-}
-
-footer h3 {
-    font-size: 23px;
-    color: royalblue;
-    padding: 2px;
-    margin: 2px;
-}
-
-/*Media Query*/
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-    header h1 {
-        display: none;
-    }
-    
-       nav {
-        text-align: center;
-        flex-wrap: wrap;
-        column-gap: 5rem;
-    }
-        .cta {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            gap: 8px;
-        }
-        
-        #about {
-            flex-direction: column;
-        }
-        
-        
-        #skills {
-            flex-direction: column;
-        }
-        
-        #education {
-            flex-direction: column;
-        }
-        
-        #contact {
-            flex-direction: column;
-        }
-        
-}
-
-footer p {
-    color: black;
-    margin: 2px;
-    padding: 3px; 
-}
+<!doctype html>
+<html>
+    <head>
+        <title>Profile Mayshia Aniqa Mawqin Kowel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Mey profile</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <hero>
+                 <img src="./assets/img/IMG_20230131_143944.jpg">
+                 <h2>Mayshia Aniqa Mawqin Kowel</h2>
+                 <p>Fullstack Web Developer</p>
+                 <div class="cta">
+                    <a href="https://wa.me/6285933218986" target="_blank" class="btn-cta"><i class="ri-contacts-book-3-line"></i>Hire Me</a>
+                    <a href="#" class="btn-cta"><i class="ri-download-2-line"></i>Download CV</a>
+                 </div>
+            </hero>
+            <section id="about">
+                <div class="about-left">
+                    <h2>About</h2>
+                    <p>Hello! Nama saya Mayshia Aniqa Mawqin Kowel, Saya Web Developer, Designer, dan pelajar SMK Teknik Komputer Jaringan</p>
+                    <p>Saya sedang belajar dan mengembangkan kemampuan dibidang pemrograman web. Saat ini saya belajar di SMK Mahadhika 4 Jakarta jurusan Teknik Komputer dan Jaringan</p>
+                </div>
+                <div class="about-right">
+                    <h2>Basic Information</h2>
+                    <table>
+                        <tr>
+                            <td>Usia</td>
+                            <td>16 tahun</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>mayshiakowel@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>No. Handphone</td>
+                            <td>+62859 3321 xxxx</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>Kel. Gedong</td>
+                        </tr>
+                    </table>
+                </div>    
+            </section>
+            <h2 class="title">Professional Skills</h2>
+            <section id="skills">
+                <div class="skills-left">
+                    <p>HTML</p>
+                    <div id="progress">
+                        <div style="width:50%">50%</div>
+                    </div>
+                    <p>CSS</p>
+                    <div id="progress">
+                        <div style="width:45%">45%</div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>PHP</p>
+                    <div id="progress">
+                        <div style="width:30%">30%</div>
+                    </div>
+                    <p>MySQL</p>
+                    <div id="progress">
+                        <div style="width:30%">30%</div>
+                    </div>
+                </div>
+            </section>
+            <h2 class="title">Education</h2>
+            <section id="education">
+                <div class="education-left">
+                    <p>2014-2020</p>
+                    <h3>Sekolah Dasar</h3>
+                </div>
+                <div class="education-right">
+                    <p>Sekolah Dasar</p>
+                    <p class="sekolah">SD NEGERI TENGAH 07</p>
+                    <p>SD Negeri Tengah 07 terletak di Kelurahan Tengah Kecamatan Kramat Jati, Provinsi DKI Jakarta</p>
+                </div>
+            </section>
+            <section id="education">
+                <div class="education-left">
+                    <p>2020-2023</p>
+                    <h3>Sekolah Menengah Pertama</h3>
+                </div>
+                <div class="education-right">
+                    <p>Sekolah Menegah Pertama</p>
+                    <p class="sekolah">SMP NEGERI 102</p>
+                    <p>SMP Negeri 102 terletak di Kelurahan Gedong Kecamatan Pasar Rebo, Provinsi DKI Jakarta</p>
+                </div>
+            </section>
+            <section id="education">
+                <div class="education-left">
+                    <p>2023-2026</p>
+                    <h3>Sekolah Menengah Kejuruan</h3>
+                </div>
+                <div class="education-right">
+                    <p>Sekolah Menegah Kejuruan</p>
+                    <p class="sekolah">SMK MAHADHIKA 4</p>
+                    <p>SMK Mahadhika 4 terletak di Kelurahan Cijantung Kecamatan Pasar Rebo, Provinsi DKI Jakarta</p>
+                </div>
+            </section>
+            <h2 class="title">Contact</h2>
+            <section id="contact">
+                <div class="left-contact">
+                    <h4>Hubungi Saya</h4>
+                    <form method="post" action="message.php">
+                        <label>Nama Lengkap</label>
+                        <input type="text" name="nama" required /><br />
+                        <label>Alamat Email</label>
+                        <input type="email" name="email" required /><br />
+                        <label>Judul Pesan</label>
+                        <input type="text" name="judul" required /><br />
+                        <label>Pesan</label>
+                        <textarea name="pesan" rows="5" cols="50" required>Pesan anda...</textarea><br />
+                        <button type="submit" class="contact-btn">KIRIM PESAN</button>
+                    </form>
+                </div>
+                 <div class="right-contact">
+                    <h4>My Location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.192149542447!2d106.8621875!3d-6.3229375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eda735887d69%3A0xfe181e9a953df5d7!2sSMK%20Mahadhika%204%20Farmasi%2C%20TKJ%2C%20DKV!5e0!3m2!1sid!2sid!4v1730517757436!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                 </div>
+            </section>
+        </main>
+        <footer> 
+            <div>
+                <a href="" class="icon-sosmed"><i class="ri-facebook-fill ri-lg"></i></a>
+                <a href="" class="icon-sosmed"><i class="ri-twitter-fill ri-lg"></i></a>
+                <a href="" class="icon-sosmed"><i class="ri-google-fill ri-lg"></i></a>
+                <a href="" class="icon-sosmed"><i class="ri-instagram-fill ri-lg"></i></a>   
+            </div>
+            <h3>Mayshia Aniqa Mawqin Kowel</h3>
+            <p><i class="ri-whatsapp-fill"></i>08593321xxxx | <i class="ri-mail-fill"></i>mayshiakowel@gmail.com</p>
+        </footer>
+    </body>
+</html>
