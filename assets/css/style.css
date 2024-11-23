@@ -249,9 +249,13 @@ footer h3 {
 
 /*Media Query*/
 @media screen and (max-width: 768px){
-    h1 {
+    header {
+        flex-direction: column;
+    }
+    header h1 {
         display: none;
-       }
+    }
+    
 }
 
 footer p {
