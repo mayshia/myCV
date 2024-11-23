@@ -247,6 +247,14 @@ footer h3 {
     margin: 2px;
 }
 
+/*Media Query*/
+@media screen and (max-width: 768px){
+    h1 {
+        display: none;
+       }
+}
+
+
 footer p {
     color: black;
     margin: 2px;
